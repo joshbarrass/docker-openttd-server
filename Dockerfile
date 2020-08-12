@@ -32,5 +32,5 @@ RUN  mkdir -p ~/.openttd/baseset \
   && unzip /tmp/opengfx.zip -d ~/.openttd/baseset \
   && rm -f /tmp/opengfx.zip
 
-PORT 3979
+EXPOSE 3979
 CMD ["/usr/games/openttd", "-D0.0.0.0:3979"]
